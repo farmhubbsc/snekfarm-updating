@@ -1,22 +1,23 @@
-import logo from './logo.svg';
+import logo from './snek-token.png';
+
 import './App.css';
+
+setTimeout(function(){ window.location.reload(); }, 20000);
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          Snek.Farm is updating!
+        </h1>
+        <h3>
+          We'll be back in 1-2 minutes!
+        </h3>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This page refreshes automatically
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
